@@ -211,7 +211,7 @@ nav{
               display: grid;
                 grid-template-rows: repeat(2, 1fr) ;
                 justify-content: center;
-                justify-items: flex-start;
+                /* justify-items: flex-start; */
                 align-items: center;
                 box-shadow: 0px 0px 60px rgb(165, 161, 161);
                 border-radius: 10px;
