@@ -181,7 +181,7 @@ nav{
 
         /* card section */
         .card-container{
-            margin-top: 100px;
+            margin-top: 80px;
             margin-left: 120px;
             margin-right: 120px;
             color: #3A3A3A;
@@ -217,7 +217,7 @@ nav{
                 height: 550px; 
                 transition: transform 1s ease;
                 cursor: pointer;
-                padding: 30px;
+                padding: 0 30px;
         }
         .card:hover{
             transform: scale(1.1,1.1);
