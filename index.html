@@ -12,46 +12,61 @@
 
 <body>
     <!-- Nav section -->
-    <nav>
-        <div class="navigation container">
-            <div class="company-logo">
-                <h3>Influencer products</h3>
+    <header>
+        <nav class="container">
+            <input type="checkbox" id="nav-toggler">
+            <label class="nav-toggler-icon" for="nav-toggler">
+                <i class="card-icon fas fa-bars"></i>
+            </label>
+            <div class="nav-left">
+                <a href="#">
+                    <h1>Influencer Products</h1>
+                </a>
             </div>
-            <div class="button-box">
-                <input type="checkbox" name="" id="slidebar">
-                <label class="slidebar-icon" for="slidebar"><i class="fas fa-bars"></i></label>
-                <div class="nav-menu">
+            <div class="mobile-view-cart-search">
+                <a href=""><i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-items">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Sign up</a></li>
-                        <li><a href="">Log in</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        <li id="cart-list"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
-                <div class="nav-menu-icon">
-                    <p><i class="fas fa-search"></i></p>
-                    <p><i class="fas fa-shopping-cart"></i> </p>
-
-                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+    </header>
+    <!-- nav section end -->
 
     <!-- banner section -->
-    <section class="main-section">
-        <div class="main-section-heading">
-            <h1>Start your Journey as <br>Influencer</h1>
-            <p>An important thing that makes a social media influencer successful is having a great on-screen
-                presence.Many of us may have what it takes to be Instagram influencers, but often, we become camera
-                conscious, which discourages us from doing it.
-            </p>
-            <button type="submit" class="main-section-btn">Preebook now<a href=""><i class="fas fa-arrow-right"></i></a>
+    <section class="first-section container">
+
+
+        <div class="first-section-left">
+
+            <h1>Start your Journey as
+                Influencer</h1>
+
+            <p>Are you passionate about Technology? To ensure your journey as Influencer is
+                satisfying and continuous, we have put together a list of the best products to help you on your way.</p>
+
+            <button class="common-button"><a href="#">Preebook now <i class="fas fa-long-arrow-alt-right"></i></a>
             </button>
         </div>
-        <div class="main-section-img">
-            <img src="images/main-camera.png" alt="" width="420px">
+
+        <div class="first-section-right">
+            <img src="images/main-camera.png" alt="">
         </div>
+
     </section>
+
+    <!-- banner section end -->
 
     <!-- Company logo  -->
     <section class="company-img">
@@ -65,6 +80,7 @@
             <div class="grid-img"><img src="logos/Walmart.svg" alt=""></div>
         </div>
     </section>
+    <!-- company section end -->
 
     <!-- card section -->
     <div class="card-container">
@@ -256,6 +272,7 @@
             <h4>See more <span><i class="fas fa-arrow-right"></i></span> </h4>
         </div>
     </div>
+    <!-- card section end -->
 
     <!-- bonus section -->
     <section class="contact">
@@ -307,6 +324,7 @@
             </div>
         </div>
     </section>
+    <!-- bonus section end -->
 
     <!-- Footer section -->
     <footer>
